@@ -1,10 +1,1 @@
-### Boilerplate react setup
-
-## Includes
-
-This includes code splitting of node modules, and javascript, tree shaking,
-react, and jest with snapshot testing of storybook stories, and
-testing-library/react with hooks add on for individual hooks tests.
-
-Now supports sw precaching and offline capabilities.
-![Bundle Analyzer](bundle.png?raw=true)
+[![codecov](https://codecov.io/gh/ryanbas21/review-site/branch/master/graph/badge.svg)](https://codecov.io/gh/ryanbas21/review-site)
