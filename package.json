@@ -4,7 +4,7 @@
     "description": "A repo setting up webpack 4 for code splitting",
     "main": "index.js",
     "scripts": {
-        "test": "jest -u --coverage",
+        "test": "jest -u --coverage && codecov",
         "build": "NODE_ENV=production webpack",
         "watch": "NODE_ENV=development webpack-dashboard -- webpack-dev-server",
         "analyze": "NODE_ENV=analyze webpack",
@@ -34,6 +34,7 @@
         "babel-eslint": "^10.0.2",
         "babel-loader": "^8.0.6",
         "babel-plugin-require-context-hook": "^1.0.0",
+        "codecov": "^3.5.0",
         "css-loader": "^3.0.0",
         "cssnano": "^4.1.10",
         "directory-named-webpack-plugin": "^4.0.1",
