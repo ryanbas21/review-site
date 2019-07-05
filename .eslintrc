@@ -1,6 +1,6 @@
 {
     
-    "extends": ["eslint:recommended", "plugin:react/recommended", "eslint-config-prettier", "prettier", "prettier/react"],
+    "extends": ["plugin:react/recommended", "eslint-config-prettier", "prettier", "prettier/react"],
     "plugins": ["react"],
     "parser": "babel-eslint",
     "parserOptions": {

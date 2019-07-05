@@ -72,6 +72,7 @@
         "webpack-manifest-plugin": "^2.0.4"
     },
     "dependencies": {
+        "prop-types": "^15.7.2",
         "ramda": "^0.26.1",
         "react": "^16.8.6",
         "react-dom": "^16.8.6",
