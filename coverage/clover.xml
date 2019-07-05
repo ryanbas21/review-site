@@ -1,23 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1562204166348" clover="3.2.0">
-  <project timestamp="1562204166348" name="All files">
-    <metrics statements="9" coveredstatements="9" conditionals="0" coveredconditionals="0" methods="5" coveredmethods="5" elements="14" coveredelements="14" complexity="0" loc="9" ncloc="9" packages="2" files="3" classes="3"/>
-    <package name=".storybook">
-      <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
-      <file name="addons.js" path="/Users/batman/programming/web/webpack/.storybook/addons.js">
+<coverage generated="1562295514656" clover="3.2.0">
+  <project timestamp="1562295514656" name="All files">
+    <metrics statements="15" coveredstatements="15" conditionals="0" coveredconditionals="0" methods="7" coveredmethods="7" elements="22" coveredelements="22" complexity="0" loc="15" ncloc="15" packages="3" files="5" classes="5"/>
+    <package name="components.item">
+      <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="item.js" path="/Users/batman/programming/web/store/src/components/item/item.js">
+        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="5" count="6" type="stmt"/>
+        <line num="17" count="1" type="stmt"/>
+        <line num="25" count="1" type="stmt"/>
+      </file>
+      <file name="item.stories.js" path="/Users/batman/programming/web/store/src/components/item/item.stories.js">
         <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
       </file>
-      <file name="config.js" path="/Users/batman/programming/web/webpack/.storybook/config.js">
-        <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
-        <line num="5" count="1" type="stmt"/>
-        <line num="10" count="1" type="stmt"/>
-        <line num="12" count="1" type="stmt"/>
-        <line num="15" count="1" type="stmt"/>
+    </package>
+    <package name="components.login">
+      <metrics statements="7" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
+      <file name="login.js" path="/Users/batman/programming/web/store/src/components/login/login.js">
+        <metrics statements="7" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="5" count="9" type="stmt"/>
+        <line num="6" count="9" type="stmt"/>
+        <line num="7" count="9" type="stmt"/>
+        <line num="16" count="1" type="stmt"/>
+        <line num="26" count="1" type="stmt"/>
+        <line num="36" count="1" type="stmt"/>
+      </file>
+      <file name="login.stories.js" path="/Users/batman/programming/web/store/src/components/login/login.stories.js">
+        <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
       </file>
     </package>
-    <package name="src">
+    <package name="features.App">
       <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
-      <file name="App.stories.js" path="/Users/batman/programming/web/webpack/src/App.stories.js">
+      <file name="App.stories.js" path="/Users/batman/programming/web/store/src/features/App/App.stories.js">
         <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
         <line num="8" count="1" type="stmt"/>
         <line num="9" count="1" type="stmt"/>
