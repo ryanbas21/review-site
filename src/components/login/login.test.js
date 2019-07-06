@@ -44,7 +44,6 @@ describe('Login', () => {
             username: 'username',
             password: 'password',
         })
-        fireEvent.submit(getByTestId('login-form'))
         expect(fn).toHaveBeenCalled()
     })
     it('should have a register link', function() {
